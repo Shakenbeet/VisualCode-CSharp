@@ -1,0 +1,11 @@
+C:\Users\lukey_ddd679h\source\repos\VisualCode\bin\Debug\VisualCode.exe.config
+C:\Users\lukey_ddd679h\source\repos\VisualCode\bin\Debug\VisualCode.exe
+C:\Users\lukey_ddd679h\source\repos\VisualCode\bin\Debug\VisualCode.pdb
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.csprojAssemblyReference.cache
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.Form1.resources
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.Properties.Resources.resources
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.csproj.GenerateResource.cache
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.csproj.CoreCompileInputs.cache
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.exe
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.pdb
+C:\Users\lukey_ddd679h\source\repos\VisualCode\obj\Debug\VisualCode.Form2.resources
