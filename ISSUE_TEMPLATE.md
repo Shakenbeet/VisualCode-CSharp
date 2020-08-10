@@ -13,3 +13,5 @@ Also please tell us how bad/urgent the issue is:
 - VisualCode builds incorrect code with errors
 - Important Gui not showing or malfunctioning
 - Application Crashes
+
+Last but not least, tell us how you found the bug. We can't fix a bug we cannot find!
