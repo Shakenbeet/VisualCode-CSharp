@@ -16,8 +16,15 @@ Basic If and Else statments
 
 Declaring Variables
 
+Can My System Run VisualCode?
+==============================
+If you run Windows (32-bit or 64-bit) you can probably run VisualCode
+
+VisualCode currently doesn't support MacOS or Linux officialy.
+
 How Can I Get Started?
 =====================
 Download our latest release and head over to the Wiki, over there is tutorials to help you get started!
+
 
 
