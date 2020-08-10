@@ -190,7 +190,7 @@ namespace VisualCode
                 }
                 else if (elseCommand1.SelectedIndex == 1)
                 {
-                    string code1 = "else { string " + value1.Text + " Console.ReadLine(); }";
+                    string code1 = "else { string " + value1.Text + " = Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code1.txt", code1);
                 }
             }
@@ -328,7 +328,7 @@ namespace VisualCode
                 }
                 else if (elseCommand2.SelectedIndex == 1)
                 {
-                    string code = "else { string " + value2.Text + " Console.ReadLine(); }";
+                    string code = "else { string " + value2.Text + " = Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code2.txt", code);
                 }
             }
@@ -468,7 +468,7 @@ namespace VisualCode
                 }
                 else if (elseCommand3.SelectedIndex == 1)
                 {
-                    string code = "else { string " + value3.Text + " Console.ReadLine(); }";
+                    string code = "else { string " + value3.Text + " = Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code3.txt", code);
                 }
             }
@@ -603,7 +603,7 @@ namespace VisualCode
                 }
                 else if (elseCommand4.SelectedIndex == 1)
                 {
-                    string code = "else { string " + value4.Text + " Console.ReadLine(); }";
+                    string code = "else { string " + value4.Text + " = Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code4.txt", code);
                 }
             }
@@ -738,7 +738,7 @@ namespace VisualCode
                 }
                 else if (elseCommand5.SelectedIndex == 1)
                 {
-                    string code = "else { string " + value5.Text + " Console.ReadLine(); }";
+                    string code = "else { string " + value5.Text + " = Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code5.txt", code);
                 }
             }
@@ -875,7 +875,7 @@ namespace VisualCode
                 }
                 else if (elseCommand6.SelectedIndex == 1)
                 {
-                    string code = "else { string " + value6.Text + " Console.ReadLine(); }";
+                    string code = "else { string " + value6.Text + " = Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code6.txt", code);
                 }
             }
@@ -1026,7 +1026,7 @@ namespace VisualCode
                 }
                 else if (elseCommand7.SelectedIndex == 1)
                 {
-                    string code = "else { string " + value7.Text + " Console.ReadLine(); }";
+                    string code = "else { string " + value7.Text + " = Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code7.txt", code);
                 }
             }
