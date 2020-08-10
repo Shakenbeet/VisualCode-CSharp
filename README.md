@@ -18,6 +18,6 @@ Declaring Variables
 
 How Can I Get Started?
 =====================
-Download our latest package and head over to the Wiki, over there is tutorials to help you get started!
+Download our latest release and head over to the Wiki, over there is tutorials to help you get started!
 
 
