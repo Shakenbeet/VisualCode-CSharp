@@ -863,6 +863,16 @@ namespace VisualCode
             form2.Show();
         }
 
+        private void elseCommand6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void elseCommand7_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void Open6_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(@"C:\visualCodeCSharp\code6.txt");

@@ -33,6 +33,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Box = new System.Windows.Forms.GroupBox();
+            this.ifBox1 = new System.Windows.Forms.GroupBox();
+            this.thenDoWhat1 = new System.Windows.Forms.TextBox();
+            this.thenLabel1 = new System.Windows.Forms.Label();
+            this.ifLabel1 = new System.Windows.Forms.Label();
+            this.ifValueTwo1 = new System.Windows.Forms.TextBox();
+            this.ifEqual1 = new System.Windows.Forms.ComboBox();
+            this.ifValue1 = new System.Windows.Forms.TextBox();
+            this.elseCommand1 = new System.Windows.Forms.ComboBox();
             this.ifBox7 = new System.Windows.Forms.GroupBox();
             this.thenDoWhat7 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -103,13 +111,6 @@
             this.Open2 = new System.Windows.Forms.Button();
             this.Save2 = new System.Windows.Forms.Button();
             this.Open1 = new System.Windows.Forms.Button();
-            this.ifBox1 = new System.Windows.Forms.GroupBox();
-            this.thenDoWhat1 = new System.Windows.Forms.TextBox();
-            this.thenLabel1 = new System.Windows.Forms.Label();
-            this.ifLabel1 = new System.Windows.Forms.Label();
-            this.ifValueTwo1 = new System.Windows.Forms.TextBox();
-            this.ifEqual1 = new System.Windows.Forms.ComboBox();
-            this.ifValue1 = new System.Windows.Forms.TextBox();
             this.value2 = new System.Windows.Forms.TextBox();
             this.value1 = new System.Windows.Forms.TextBox();
             this.print2 = new System.Windows.Forms.TextBox();
@@ -122,21 +123,20 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.Helpbtn = new System.Windows.Forms.Button();
-            this.elseCommand1 = new System.Windows.Forms.ComboBox();
             this.elseCommand2 = new System.Windows.Forms.ComboBox();
             this.elseCommand3 = new System.Windows.Forms.ComboBox();
-            this.elseCommand4 = new System.Windows.Forms.ComboBox();
             this.elseCommand5 = new System.Windows.Forms.ComboBox();
             this.elseCommand6 = new System.Windows.Forms.ComboBox();
             this.elseCommand7 = new System.Windows.Forms.ComboBox();
+            this.elseCommand4 = new System.Windows.Forms.ComboBox();
             this.Box.SuspendLayout();
+            this.ifBox1.SuspendLayout();
             this.ifBox7.SuspendLayout();
             this.ifBox6.SuspendLayout();
             this.ifBox5.SuspendLayout();
             this.ifBox4.SuspendLayout();
             this.ifBox3.SuspendLayout();
             this.ifBox2.SuspendLayout();
-            this.ifBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -174,6 +174,13 @@
             // 
             // Box
             // 
+            this.Box.Controls.Add(this.elseCommand7);
+            this.Box.Controls.Add(this.elseCommand6);
+            this.Box.Controls.Add(this.elseCommand5);
+            this.Box.Controls.Add(this.elseCommand4);
+            this.Box.Controls.Add(this.elseCommand3);
+            this.Box.Controls.Add(this.elseCommand2);
+            this.Box.Controls.Add(this.ifBox2);
             this.Box.Controls.Add(this.ifBox1);
             this.Box.Controls.Add(this.elseCommand1);
             this.Box.Controls.Add(this.ifBox7);
@@ -206,7 +213,6 @@
             this.Box.Controls.Add(this.Save3);
             this.Box.Controls.Add(this.print3);
             this.Box.Controls.Add(this.commandThree);
-            this.Box.Controls.Add(this.ifBox2);
             this.Box.Controls.Add(this.Open2);
             this.Box.Controls.Add(this.Save2);
             this.Box.Controls.Add(this.Open1);
@@ -224,10 +230,96 @@
             this.Box.TabStop = false;
             this.Box.Text = "Visual Code";
             // 
+            // ifBox1
+            // 
+            this.ifBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.ifBox1.Controls.Add(this.thenDoWhat1);
+            this.ifBox1.Controls.Add(this.thenLabel1);
+            this.ifBox1.Controls.Add(this.ifLabel1);
+            this.ifBox1.Controls.Add(this.ifValueTwo1);
+            this.ifBox1.Controls.Add(this.ifEqual1);
+            this.ifBox1.Controls.Add(this.ifValue1);
+            this.ifBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ifBox1.Location = new System.Drawing.Point(132, 17);
+            this.ifBox1.Name = "ifBox1";
+            this.ifBox1.Size = new System.Drawing.Size(513, 25);
+            this.ifBox1.TabIndex = 15;
+            this.ifBox1.TabStop = false;
+            this.ifBox1.Visible = false;
+            // 
+            // thenDoWhat1
+            // 
+            this.thenDoWhat1.Location = new System.Drawing.Point(406, 4);
+            this.thenDoWhat1.Name = "thenDoWhat1";
+            this.thenDoWhat1.Size = new System.Drawing.Size(107, 20);
+            this.thenDoWhat1.TabIndex = 21;
+            // 
+            // thenLabel1
+            // 
+            this.thenLabel1.AutoSize = true;
+            this.thenLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thenLabel1.Location = new System.Drawing.Point(318, 3);
+            this.thenLabel1.Name = "thenLabel1";
+            this.thenLabel1.Size = new System.Drawing.Size(85, 20);
+            this.thenLabel1.TabIndex = 19;
+            this.thenLabel1.Text = "Then Print:";
+            // 
+            // ifLabel1
+            // 
+            this.ifLabel1.AutoSize = true;
+            this.ifLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ifLabel1.Location = new System.Drawing.Point(-2, 1);
+            this.ifLabel1.Name = "ifLabel1";
+            this.ifLabel1.Size = new System.Drawing.Size(19, 20);
+            this.ifLabel1.TabIndex = 18;
+            this.ifLabel1.Text = "If";
+            // 
+            // ifValueTwo1
+            // 
+            this.ifValueTwo1.Location = new System.Drawing.Point(244, 2);
+            this.ifValueTwo1.Name = "ifValueTwo1";
+            this.ifValueTwo1.Size = new System.Drawing.Size(71, 20);
+            this.ifValueTwo1.TabIndex = 17;
+            // 
+            // ifEqual1
+            // 
+            this.ifEqual1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ifEqual1.FormattingEnabled = true;
+            this.ifEqual1.Items.AddRange(new object[] {
+            "Equal To",
+            "Less Than",
+            "Less Than or Equal To",
+            "Greater Than",
+            "Greater Than or Equal To",
+            "Not Equal To"});
+            this.ifEqual1.Location = new System.Drawing.Point(101, 1);
+            this.ifEqual1.Name = "ifEqual1";
+            this.ifEqual1.Size = new System.Drawing.Size(137, 21);
+            this.ifEqual1.TabIndex = 16;
+            // 
+            // ifValue1
+            // 
+            this.ifValue1.Location = new System.Drawing.Point(17, 1);
+            this.ifValue1.Name = "ifValue1";
+            this.ifValue1.Size = new System.Drawing.Size(78, 20);
+            this.ifValue1.TabIndex = 15;
+            // 
+            // elseCommand1
+            // 
+            this.elseCommand1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.elseCommand1.FormattingEnabled = true;
+            this.elseCommand1.Items.AddRange(new object[] {
+            "print",
+            "listen"});
+            this.elseCommand1.Location = new System.Drawing.Point(132, 20);
+            this.elseCommand1.Name = "elseCommand1";
+            this.elseCommand1.Size = new System.Drawing.Size(279, 21);
+            this.elseCommand1.TabIndex = 50;
+            this.elseCommand1.Visible = false;
+            // 
             // ifBox7
             // 
             this.ifBox7.BackColor = System.Drawing.SystemColors.Control;
-            this.ifBox7.Controls.Add(this.elseCommand7);
             this.ifBox7.Controls.Add(this.thenDoWhat7);
             this.ifBox7.Controls.Add(this.label15);
             this.ifBox7.Controls.Add(this.label16);
@@ -302,7 +394,6 @@
             // ifBox6
             // 
             this.ifBox6.BackColor = System.Drawing.SystemColors.Control;
-            this.ifBox6.Controls.Add(this.elseCommand6);
             this.ifBox6.Controls.Add(this.thenDoWhat6);
             this.ifBox6.Controls.Add(this.label13);
             this.ifBox6.Controls.Add(this.label14);
@@ -377,7 +468,6 @@
             // ifBox5
             // 
             this.ifBox5.BackColor = System.Drawing.SystemColors.Control;
-            this.ifBox5.Controls.Add(this.elseCommand5);
             this.ifBox5.Controls.Add(this.thenDoWhat5);
             this.ifBox5.Controls.Add(this.label11);
             this.ifBox5.Controls.Add(this.label12);
@@ -452,7 +542,6 @@
             // ifBox4
             // 
             this.ifBox4.BackColor = System.Drawing.SystemColors.Control;
-            this.ifBox4.Controls.Add(this.elseCommand4);
             this.ifBox4.Controls.Add(this.thenDoWhat4);
             this.ifBox4.Controls.Add(this.label9);
             this.ifBox4.Controls.Add(this.label10);
@@ -460,7 +549,7 @@
             this.ifBox4.Controls.Add(this.ifEqual4);
             this.ifBox4.Controls.Add(this.ifValue4);
             this.ifBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ifBox4.Location = new System.Drawing.Point(132, 153);
+            this.ifBox4.Location = new System.Drawing.Point(132, 152);
             this.ifBox4.Name = "ifBox4";
             this.ifBox4.Size = new System.Drawing.Size(513, 25);
             this.ifBox4.TabIndex = 46;
@@ -527,7 +616,6 @@
             // ifBox3
             // 
             this.ifBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.ifBox3.Controls.Add(this.elseCommand3);
             this.ifBox3.Controls.Add(this.thenDoWhat3);
             this.ifBox3.Controls.Add(this.label6);
             this.ifBox3.Controls.Add(this.label7);
@@ -535,7 +623,7 @@
             this.ifBox3.Controls.Add(this.ifEqual3);
             this.ifBox3.Controls.Add(this.ifValue3);
             this.ifBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ifBox3.Location = new System.Drawing.Point(133, 110);
+            this.ifBox3.Location = new System.Drawing.Point(133, 108);
             this.ifBox3.Name = "ifBox3";
             this.ifBox3.Size = new System.Drawing.Size(513, 25);
             this.ifBox3.TabIndex = 45;
@@ -857,7 +945,6 @@
             // ifBox2
             // 
             this.ifBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.ifBox2.Controls.Add(this.elseCommand2);
             this.ifBox2.Controls.Add(this.thenDoWhat2);
             this.ifBox2.Controls.Add(this.label4);
             this.ifBox2.Controls.Add(this.label5);
@@ -865,7 +952,7 @@
             this.ifBox2.Controls.Add(this.ifEqual2);
             this.ifBox2.Controls.Add(this.ifValue2);
             this.ifBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ifBox2.Location = new System.Drawing.Point(134, 63);
+            this.ifBox2.Location = new System.Drawing.Point(133, 62);
             this.ifBox2.Name = "ifBox2";
             this.ifBox2.Size = new System.Drawing.Size(513, 25);
             this.ifBox2.TabIndex = 19;
@@ -958,80 +1045,6 @@
             this.Open1.Text = "Open";
             this.Open1.UseVisualStyleBackColor = true;
             this.Open1.Click += new System.EventHandler(this.Open1_Click);
-            // 
-            // ifBox1
-            // 
-            this.ifBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.ifBox1.Controls.Add(this.thenDoWhat1);
-            this.ifBox1.Controls.Add(this.thenLabel1);
-            this.ifBox1.Controls.Add(this.ifLabel1);
-            this.ifBox1.Controls.Add(this.ifValueTwo1);
-            this.ifBox1.Controls.Add(this.ifEqual1);
-            this.ifBox1.Controls.Add(this.ifValue1);
-            this.ifBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ifBox1.Location = new System.Drawing.Point(133, 18);
-            this.ifBox1.Name = "ifBox1";
-            this.ifBox1.Size = new System.Drawing.Size(513, 25);
-            this.ifBox1.TabIndex = 15;
-            this.ifBox1.TabStop = false;
-            this.ifBox1.Visible = false;
-            // 
-            // thenDoWhat1
-            // 
-            this.thenDoWhat1.Location = new System.Drawing.Point(406, 4);
-            this.thenDoWhat1.Name = "thenDoWhat1";
-            this.thenDoWhat1.Size = new System.Drawing.Size(107, 20);
-            this.thenDoWhat1.TabIndex = 21;
-            // 
-            // thenLabel1
-            // 
-            this.thenLabel1.AutoSize = true;
-            this.thenLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.thenLabel1.Location = new System.Drawing.Point(318, 3);
-            this.thenLabel1.Name = "thenLabel1";
-            this.thenLabel1.Size = new System.Drawing.Size(85, 20);
-            this.thenLabel1.TabIndex = 19;
-            this.thenLabel1.Text = "Then Print:";
-            // 
-            // ifLabel1
-            // 
-            this.ifLabel1.AutoSize = true;
-            this.ifLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ifLabel1.Location = new System.Drawing.Point(-2, 1);
-            this.ifLabel1.Name = "ifLabel1";
-            this.ifLabel1.Size = new System.Drawing.Size(19, 20);
-            this.ifLabel1.TabIndex = 18;
-            this.ifLabel1.Text = "If";
-            // 
-            // ifValueTwo1
-            // 
-            this.ifValueTwo1.Location = new System.Drawing.Point(244, 2);
-            this.ifValueTwo1.Name = "ifValueTwo1";
-            this.ifValueTwo1.Size = new System.Drawing.Size(71, 20);
-            this.ifValueTwo1.TabIndex = 17;
-            // 
-            // ifEqual1
-            // 
-            this.ifEqual1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ifEqual1.FormattingEnabled = true;
-            this.ifEqual1.Items.AddRange(new object[] {
-            "Equal To",
-            "Less Than",
-            "Less Than or Equal To",
-            "Greater Than",
-            "Greater Than or Equal To",
-            "Not Equal To"});
-            this.ifEqual1.Location = new System.Drawing.Point(101, 1);
-            this.ifEqual1.Name = "ifEqual1";
-            this.ifEqual1.Size = new System.Drawing.Size(137, 21);
-            this.ifEqual1.TabIndex = 16;
-            // 
-            // ifValue1
-            // 
-            this.ifValue1.Location = new System.Drawing.Point(17, 1);
-            this.ifValue1.Name = "ifValue1";
-            this.ifValue1.Size = new System.Drawing.Size(78, 20);
-            this.ifValue1.TabIndex = 15;
             // 
             // value2
             // 
@@ -1155,19 +1168,6 @@
             this.Helpbtn.UseVisualStyleBackColor = true;
             this.Helpbtn.Click += new System.EventHandler(this.Helpbtn_Click);
             // 
-            // elseCommand1
-            // 
-            this.elseCommand1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.elseCommand1.FormattingEnabled = true;
-            this.elseCommand1.Items.AddRange(new object[] {
-            "print",
-            "listen"});
-            this.elseCommand1.Location = new System.Drawing.Point(132, 20);
-            this.elseCommand1.Name = "elseCommand1";
-            this.elseCommand1.Size = new System.Drawing.Size(279, 21);
-            this.elseCommand1.TabIndex = 50;
-            this.elseCommand1.Visible = false;
-            // 
             // elseCommand2
             // 
             this.elseCommand2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -1175,7 +1175,7 @@
             this.elseCommand2.Items.AddRange(new object[] {
             "print",
             "listen"});
-            this.elseCommand2.Location = new System.Drawing.Point(1, 1);
+            this.elseCommand2.Location = new System.Drawing.Point(134, 64);
             this.elseCommand2.Name = "elseCommand2";
             this.elseCommand2.Size = new System.Drawing.Size(279, 21);
             this.elseCommand2.TabIndex = 51;
@@ -1188,24 +1188,11 @@
             this.elseCommand3.Items.AddRange(new object[] {
             "print",
             "listen"});
-            this.elseCommand3.Location = new System.Drawing.Point(2, 1);
+            this.elseCommand3.Location = new System.Drawing.Point(134, 110);
             this.elseCommand3.Name = "elseCommand3";
             this.elseCommand3.Size = new System.Drawing.Size(279, 21);
-            this.elseCommand3.TabIndex = 51;
+            this.elseCommand3.TabIndex = 53;
             this.elseCommand3.Visible = false;
-            // 
-            // elseCommand4
-            // 
-            this.elseCommand4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.elseCommand4.FormattingEnabled = true;
-            this.elseCommand4.Items.AddRange(new object[] {
-            "print",
-            "listen"});
-            this.elseCommand4.Location = new System.Drawing.Point(1, 1);
-            this.elseCommand4.Name = "elseCommand4";
-            this.elseCommand4.Size = new System.Drawing.Size(279, 21);
-            this.elseCommand4.TabIndex = 52;
-            this.elseCommand4.Visible = false;
             // 
             // elseCommand5
             // 
@@ -1214,10 +1201,10 @@
             this.elseCommand5.Items.AddRange(new object[] {
             "print",
             "listen"});
-            this.elseCommand5.Location = new System.Drawing.Point(2, 1);
+            this.elseCommand5.Location = new System.Drawing.Point(136, 205);
             this.elseCommand5.Name = "elseCommand5";
             this.elseCommand5.Size = new System.Drawing.Size(279, 21);
-            this.elseCommand5.TabIndex = 51;
+            this.elseCommand5.TabIndex = 54;
             this.elseCommand5.Visible = false;
             // 
             // elseCommand6
@@ -1227,11 +1214,12 @@
             this.elseCommand6.Items.AddRange(new object[] {
             "print",
             "listen"});
-            this.elseCommand6.Location = new System.Drawing.Point(1, 1);
+            this.elseCommand6.Location = new System.Drawing.Point(135, 254);
             this.elseCommand6.Name = "elseCommand6";
             this.elseCommand6.Size = new System.Drawing.Size(279, 21);
-            this.elseCommand6.TabIndex = 52;
+            this.elseCommand6.TabIndex = 54;
             this.elseCommand6.Visible = false;
+            this.elseCommand6.SelectedIndexChanged += new System.EventHandler(this.elseCommand6_SelectedIndexChanged);
             // 
             // elseCommand7
             // 
@@ -1240,11 +1228,25 @@
             this.elseCommand7.Items.AddRange(new object[] {
             "print",
             "listen"});
-            this.elseCommand7.Location = new System.Drawing.Point(2, 1);
+            this.elseCommand7.Location = new System.Drawing.Point(136, 298);
             this.elseCommand7.Name = "elseCommand7";
             this.elseCommand7.Size = new System.Drawing.Size(279, 21);
-            this.elseCommand7.TabIndex = 52;
+            this.elseCommand7.TabIndex = 54;
             this.elseCommand7.Visible = false;
+            this.elseCommand7.SelectedIndexChanged += new System.EventHandler(this.elseCommand7_SelectedIndexChanged);
+            // 
+            // elseCommand4
+            // 
+            this.elseCommand4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.elseCommand4.FormattingEnabled = true;
+            this.elseCommand4.Items.AddRange(new object[] {
+            "print",
+            "listen"});
+            this.elseCommand4.Location = new System.Drawing.Point(134, 154);
+            this.elseCommand4.Name = "elseCommand4";
+            this.elseCommand4.Size = new System.Drawing.Size(279, 21);
+            this.elseCommand4.TabIndex = 55;
+            this.elseCommand4.Visible = false;
             // 
             // Form1
             // 
@@ -1265,6 +1267,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Box.ResumeLayout(false);
             this.Box.PerformLayout();
+            this.ifBox1.ResumeLayout(false);
+            this.ifBox1.PerformLayout();
             this.ifBox7.ResumeLayout(false);
             this.ifBox7.PerformLayout();
             this.ifBox6.ResumeLayout(false);
@@ -1277,8 +1281,6 @@
             this.ifBox3.PerformLayout();
             this.ifBox2.ResumeLayout(false);
             this.ifBox2.PerformLayout();
-            this.ifBox1.ResumeLayout(false);
-            this.ifBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1381,12 +1383,12 @@
         private System.Windows.Forms.TextBox ifValue7;
         private System.Windows.Forms.Button Helpbtn;
         private System.Windows.Forms.ComboBox elseCommand1;
+        private System.Windows.Forms.ComboBox elseCommand2;
+        private System.Windows.Forms.ComboBox elseCommand3;
         private System.Windows.Forms.ComboBox elseCommand7;
         private System.Windows.Forms.ComboBox elseCommand6;
         private System.Windows.Forms.ComboBox elseCommand5;
         private System.Windows.Forms.ComboBox elseCommand4;
-        private System.Windows.Forms.ComboBox elseCommand3;
-        private System.Windows.Forms.ComboBox elseCommand2;
     }
 }
 
