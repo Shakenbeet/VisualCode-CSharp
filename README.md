@@ -14,6 +14,8 @@ Printing to Console
 
 Reading User input and saving it to a Variable
 
-Basic If statments
+Basic If and Else statments
 
 Declaring Variables
+
+
