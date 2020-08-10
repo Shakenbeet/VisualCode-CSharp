@@ -235,9 +235,9 @@
             this.elseCommand7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.elseCommand7.FormattingEnabled = true;
             this.elseCommand7.Items.AddRange(new object[] {
-            "print",
+            "write",
             "listen"});
-            this.elseCommand7.Location = new System.Drawing.Point(136, 298);
+            this.elseCommand7.Location = new System.Drawing.Point(136, 297);
             this.elseCommand7.Name = "elseCommand7";
             this.elseCommand7.Size = new System.Drawing.Size(279, 21);
             this.elseCommand7.TabIndex = 54;
@@ -249,9 +249,9 @@
             this.elseCommand6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.elseCommand6.FormattingEnabled = true;
             this.elseCommand6.Items.AddRange(new object[] {
-            "print",
+            "write",
             "listen"});
-            this.elseCommand6.Location = new System.Drawing.Point(135, 254);
+            this.elseCommand6.Location = new System.Drawing.Point(135, 253);
             this.elseCommand6.Name = "elseCommand6";
             this.elseCommand6.Size = new System.Drawing.Size(279, 21);
             this.elseCommand6.TabIndex = 54;
@@ -263,9 +263,9 @@
             this.elseCommand5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.elseCommand5.FormattingEnabled = true;
             this.elseCommand5.Items.AddRange(new object[] {
-            "print",
+            "write",
             "listen"});
-            this.elseCommand5.Location = new System.Drawing.Point(136, 205);
+            this.elseCommand5.Location = new System.Drawing.Point(136, 204);
             this.elseCommand5.Name = "elseCommand5";
             this.elseCommand5.Size = new System.Drawing.Size(279, 21);
             this.elseCommand5.TabIndex = 54;
@@ -276,9 +276,9 @@
             this.elseCommand4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.elseCommand4.FormattingEnabled = true;
             this.elseCommand4.Items.AddRange(new object[] {
-            "print",
+            "write",
             "listen"});
-            this.elseCommand4.Location = new System.Drawing.Point(134, 154);
+            this.elseCommand4.Location = new System.Drawing.Point(134, 153);
             this.elseCommand4.Name = "elseCommand4";
             this.elseCommand4.Size = new System.Drawing.Size(279, 21);
             this.elseCommand4.TabIndex = 55;
@@ -289,9 +289,9 @@
             this.elseCommand3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.elseCommand3.FormattingEnabled = true;
             this.elseCommand3.Items.AddRange(new object[] {
-            "print",
+            "write",
             "listen"});
-            this.elseCommand3.Location = new System.Drawing.Point(134, 110);
+            this.elseCommand3.Location = new System.Drawing.Point(134, 109);
             this.elseCommand3.Name = "elseCommand3";
             this.elseCommand3.Size = new System.Drawing.Size(279, 21);
             this.elseCommand3.TabIndex = 53;
@@ -302,9 +302,9 @@
             this.elseCommand2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.elseCommand2.FormattingEnabled = true;
             this.elseCommand2.Items.AddRange(new object[] {
-            "print",
+            "write",
             "listen"});
-            this.elseCommand2.Location = new System.Drawing.Point(134, 64);
+            this.elseCommand2.Location = new System.Drawing.Point(134, 63);
             this.elseCommand2.Name = "elseCommand2";
             this.elseCommand2.Size = new System.Drawing.Size(279, 21);
             this.elseCommand2.TabIndex = 51;
@@ -739,6 +739,9 @@
             // 
             // ifValueTwo4
             // 
+            this.ifValueTwo4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ifValueTwo4.Location = new System.Drawing.Point(244, 1);
             this.ifValueTwo4.Name = "ifValueTwo4";
             this.ifValueTwo4.Size = new System.Drawing.Size(71, 20);

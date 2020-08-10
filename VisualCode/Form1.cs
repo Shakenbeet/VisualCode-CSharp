@@ -178,14 +178,14 @@ namespace VisualCode
                 {
                     mode1 = " != ";
                 }
-                string code1 = "if (" + ifValue1.Text + " " + mode1 + " " + ifValueTwo1.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat1.Text + ") " + "}";
+                string code1 = "if (" + ifValue1.Text + " " + mode1 + " " + ifValueTwo1.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat1.Text + "); " + "}";
                 System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code1.txt", code1);
             }
             else if (commandOne.SelectedIndex == 5)
             {
                 if (elseCommand1.SelectedIndex == 0)
                 {
-                    string code1 = "else { Console.WriteLine(\"" + value1.Text + "\"); }";
+                    string code1 = "else { Console.WriteLine(" + value1.Text + "); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code1.txt", code1);
                 }
                 else if (elseCommand1.SelectedIndex == 1)
@@ -316,14 +316,14 @@ namespace VisualCode
                 {
                     mode2 = " != ";
                 }
-                string code2 = "if (" + ifValue2.Text + " " + mode2 + " " + ifValueTwo2.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat2.Text + ") " + "}";
+                string code2 = "if (" + ifValue2.Text + " " + mode2 + " " + ifValueTwo2.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat2.Text + "); " + "}";
                 System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code2.txt", code2);
             }
             else if (commandTwo.SelectedIndex == 5)
             {
                 if (elseCommand2.SelectedIndex == 0)
                 {
-                    string code = "else { Console.WriteLine(\"" + value2.Text + "\"); }";
+                    string code = "else { Console.WriteLine(" + value2.Text + "); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code2.txt", code);
                 }
                 else if (elseCommand2.SelectedIndex == 1)
@@ -456,14 +456,14 @@ namespace VisualCode
                 {
                     mode3 = " != ";
                 }
-                string code3 = "if (" + ifValue3.Text + " " + mode3 + " " + ifValueTwo3.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat3.Text + ") " + "}";
+                string code3 = "if (" + ifValue3.Text + " " + mode3 + " " + ifValueTwo3.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat3.Text + "); " + "}";
                 System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code3.txt", code3);
             }
             else if (commandThree.SelectedIndex == 5)
             {
                 if (elseCommand3.SelectedIndex == 0)
                 {
-                    string code = "else { Console.WriteLine(\"" + value3.Text + "\"); }";
+                    string code = "else { Console.WriteLine(" + value3.Text + "); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code3.txt", code);
                 }
                 else if (elseCommand3.SelectedIndex == 1)
@@ -591,14 +591,14 @@ namespace VisualCode
                 {
                     mode4 = " != ";
                 }
-                string code = "if (" + ifValue4.Text + " " + mode4 + " " + ifValueTwo4.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat4.Text + ") " + "}";
+                string code = "if (" + ifValue4.Text + " " + mode4 + " " + ifValueTwo4.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat4.Text + "); " + "}";
                 System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code4.txt", code);
             }
             else if (commandFour.SelectedIndex == 5)
             {
                 if (elseCommand4.SelectedIndex == 0)
                 {
-                    string code = "else { Console.WriteLine(\"" + value4.Text + "\"); }";
+                    string code = "else { Console.WriteLine(" + value4.Text + "); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code4.txt", code);
                 }
                 else if (elseCommand4.SelectedIndex == 1)
@@ -726,14 +726,14 @@ namespace VisualCode
                 {
                     mode5 = " != ";
                 }
-                string code = "if (" + ifValue5.Text + " " + mode5 + " " + ifValueTwo5.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat5.Text + ") " + "}";
+                string code = "if (" + ifValue5.Text + " " + mode5 + " " + ifValueTwo5.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat5.Text + "); " + "}";
                 System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code5.txt", code);
             }
             else if (commandFive.SelectedIndex == 5)
             {
                 if (elseCommand5.SelectedIndex == 0)
                 {
-                    string code = "else { Console.WriteLine(\"" + value5.Text + "\"); }";
+                    string code = "else { Console.WriteLine(" + value5.Text + "); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code5.txt", code);
                 }
                 else if (elseCommand5.SelectedIndex == 1)
@@ -863,14 +863,14 @@ namespace VisualCode
                 {
                     mode6 = " != ";
                 }
-                string code = "if (" + ifValue6.Text + " " + mode6 + " " + ifValueTwo6.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat6.Text + ") " + "}";
+                string code = "if (" + ifValue6.Text + " " + mode6 + " " + ifValueTwo6.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat6.Text + "); " + "}";
                 System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code6.txt", code);
             }
             else if (commandSix.SelectedIndex == 5)
             {
                 if (elseCommand6.SelectedIndex == 0)
                 {
-                    string code = "else { Console.WriteLine(\"" + value6.Text + "\"); }";
+                    string code = "else { Console.WriteLine(" + value6.Text + "); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code6.txt", code);
                 }
                 else if (elseCommand6.SelectedIndex == 1)
@@ -1014,14 +1014,14 @@ namespace VisualCode
                 {
                     mode7 = " != ";
                 }
-                string code = "if (" + ifValue7.Text + " " + mode7 + " " + ifValueTwo7.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat7.Text + ") " + "}";
+                string code = "if (" + ifValue7.Text + " " + mode7 + " " + ifValueTwo7.Text + ")" + "{" + " Console.WriteLine(" + thenDoWhat7.Text + "); " + "}";
                 System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code7.txt", code);
             }
             else if (commandSeven.SelectedIndex == 5)
             {
                 if (elseCommand7.SelectedIndex == 0)
                 {
-                    string code = "else { Console.WriteLine(\"" + value7.Text + "\"); }";
+                    string code = "else { Console.WriteLine(" + value7.Text + "); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code7.txt", code);
                 }
                 else if (elseCommand7.SelectedIndex == 1)
