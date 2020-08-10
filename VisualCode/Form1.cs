@@ -190,7 +190,7 @@ namespace VisualCode
                 }
                 else if (elseCommand1.SelectedIndex == 1)
                 {
-                    string code1 = "else { Console.ReadLine(" + value1.Text + "); }";
+                    string code1 = "else { string " + value1.Text + " Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code1.txt", code1);
                 }
             }
@@ -213,6 +213,7 @@ namespace VisualCode
                 Save2.Enabled = true;
                 value2.Visible = false;
                 ifBox2.Visible = false;
+                elseCommand2.Visible = false;
             }
             else if (commandTwo.SelectedIndex == 2)
             {
@@ -223,6 +224,7 @@ namespace VisualCode
                 Save2.Enabled = true;
                 value2.Visible = false;
                 ifBox2.Visible = false;
+                elseCommand2.Visible = false;
             }
             else if (commandTwo.SelectedIndex == 3)
             {
@@ -233,6 +235,7 @@ namespace VisualCode
                 value2.Text = "value";
                 Save2.Enabled = true;
                 ifBox2.Visible = false;
+                elseCommand2.Visible = false;
             }
             else if (commandTwo.SelectedIndex == 4)
             {
@@ -241,6 +244,7 @@ namespace VisualCode
                 Save2.Enabled = true;
                 ifBox2.Visible = true;
                 thenDoWhat2.Text = "\"\"";
+                elseCommand2.Visible = false;
             }
             else if (commandTwo.SelectedIndex == 5)
             {
@@ -257,6 +261,7 @@ namespace VisualCode
                 print2.Text = "";
                 value2.Visible = false;
                 ifBox2.Visible = false;
+                elseCommand2.Visible = false;
             }
         }
 
@@ -323,7 +328,7 @@ namespace VisualCode
                 }
                 else if (elseCommand2.SelectedIndex == 1)
                 {
-                    string code = "else { Console.ReadLine(" + value2.Text + "); }";
+                    string code = "else { string " + value2.Text + " Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code2.txt", code);
                 }
             }
@@ -351,6 +356,7 @@ namespace VisualCode
                 Save3.Enabled = true;
                 value3.Visible = false;
                 ifBox3.Visible = false;
+                elseCommand3.Visible = false;
             }
             else if (commandThree.SelectedIndex == 2)
             {
@@ -361,6 +367,7 @@ namespace VisualCode
                 Save3.Enabled = true;
                 value3.Visible = false;
                 ifBox3.Visible = false;
+                elseCommand3.Visible = false;
             }
             else if (commandThree.SelectedIndex == 3)
             {
@@ -371,6 +378,7 @@ namespace VisualCode
                 value3.Text = "value";
                 Save3.Enabled = true;
                 ifBox3.Visible = false;
+                elseCommand3.Visible = false;
             }
             else if (commandThree.SelectedIndex == 4)
             {
@@ -379,6 +387,7 @@ namespace VisualCode
                 Save3.Enabled = true;
                 ifBox3.Visible = true;
                 thenDoWhat3.Text = "\"\"";
+                elseCommand3.Visible = false;
             }
             else if (commandThree.SelectedIndex == 5)
             {
@@ -395,6 +404,7 @@ namespace VisualCode
                 print3.Text = "";
                 value3.Visible = false;
                 ifBox3.Visible = false;
+                elseCommand3.Visible = false;
             }
         }
 
@@ -458,7 +468,7 @@ namespace VisualCode
                 }
                 else if (elseCommand3.SelectedIndex == 1)
                 {
-                    string code = "else { Console.ReadLine(" + value3.Text + "); }";
+                    string code = "else { string " + value3.Text + " Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code3.txt", code);
                 }
             }
@@ -482,6 +492,7 @@ namespace VisualCode
                 Save4.Enabled = true;
                 value4.Visible = false;
                 ifBox4.Visible = false;
+                elseCommand4.Visible = false;
             }
             else if (commandFour.SelectedIndex == 2)
             {
@@ -492,6 +503,7 @@ namespace VisualCode
                 Save4.Enabled = true;
                 value4.Visible = false;
                 ifBox4.Visible = false;
+                elseCommand4.Visible = false;
             }
             else if (commandFour.SelectedIndex == 3)
             {
@@ -502,6 +514,7 @@ namespace VisualCode
                 value4.Text = "value";
                 Save4.Enabled = true;
                 ifBox4.Visible = false;
+                elseCommand4.Visible = false;
             }
             else if (commandFour.SelectedIndex == 4)
             {
@@ -510,6 +523,7 @@ namespace VisualCode
                 Save4.Enabled = true;
                 ifBox4.Visible = true;
                 thenDoWhat4.Text = "\"\"";
+                elseCommand4.Visible = false;
             }
             else if (commandFour.SelectedIndex == 5)
             {
@@ -526,6 +540,7 @@ namespace VisualCode
                 print4.Text = "";
                 value4.Visible = false;
                 ifBox4.Visible = false;
+                elseCommand4.Visible = false;
             }
         }
 
@@ -588,7 +603,7 @@ namespace VisualCode
                 }
                 else if (elseCommand4.SelectedIndex == 1)
                 {
-                    string code = "else { Console.ReadLine(" + value4.Text + "); }";
+                    string code = "else { string " + value4.Text + " Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code4.txt", code);
                 }
             }
@@ -613,6 +628,7 @@ namespace VisualCode
                 Save5.Enabled = true;
                 value5.Visible = false;
                 ifBox5.Visible = false;
+                elseCommand5.Visible = false;
             }
             else if (commandFive.SelectedIndex == 2)
             {
@@ -623,6 +639,7 @@ namespace VisualCode
                 Save5.Enabled = true;
                 value5.Visible = false;
                 ifBox5.Visible = false;
+                elseCommand5.Visible = false;
             }
             else if (commandFive.SelectedIndex == 3)
             {
@@ -633,6 +650,7 @@ namespace VisualCode
                 value5.Text = "value";
                 Save5.Enabled = true;
                 ifBox5.Visible = false;
+                elseCommand5.Visible = false;
             }
             else if (commandFive.SelectedIndex == 4)
             {
@@ -641,6 +659,7 @@ namespace VisualCode
                 Save5.Enabled = true;
                 ifBox5.Visible = true;
                 thenDoWhat5.Text = "\"\"";
+                elseCommand5.Visible = false;
             }
             else if (commandFive.SelectedIndex == 5)
             {
@@ -657,6 +676,7 @@ namespace VisualCode
                 print5.Text = "";
                 value5.Visible = false;
                 ifBox5.Visible = false;
+                elseCommand5.Visible = false;
             }
         }
 
@@ -718,7 +738,7 @@ namespace VisualCode
                 }
                 else if (elseCommand5.SelectedIndex == 1)
                 {
-                    string code = "else { Console.ReadLine(" + value5.Text + "); }";
+                    string code = "else { string " + value5.Text + " Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code5.txt", code);
                 }
             }
@@ -745,6 +765,7 @@ namespace VisualCode
                 Save6.Enabled = true;
                 value6.Visible = false;
                 ifBox6.Visible = false;
+                elseCommand6.Visible = false;
             }
             else if (commandSix.SelectedIndex == 2)
             {
@@ -755,6 +776,7 @@ namespace VisualCode
                 Save6.Enabled = true;
                 value6.Visible = false;
                 ifBox6.Visible = false;
+                elseCommand6.Visible = false;
             }
             else if (commandSix.SelectedIndex == 3)
             {
@@ -765,6 +787,7 @@ namespace VisualCode
                 value6.Text = "value";
                 Save6.Enabled = true;
                 ifBox6.Visible = false;
+                elseCommand6.Visible = false;
             }
             else if (commandSix.SelectedIndex == 4)
             {
@@ -773,6 +796,7 @@ namespace VisualCode
                 Save6.Enabled = true;
                 ifBox6.Visible = true;
                 thenDoWhat6.Text = "\"\"";
+                elseCommand6.Visible = false;
             }
             else if (commandSix.SelectedIndex == 5)
             {
@@ -789,6 +813,7 @@ namespace VisualCode
                 print6.Text = "";
                 value6.Visible = false;
                 ifBox6.Visible = false;
+                elseCommand6.Visible = false;
             }
         }
 
@@ -850,7 +875,7 @@ namespace VisualCode
                 }
                 else if (elseCommand6.SelectedIndex == 1)
                 {
-                    string code = "else { Console.ReadLine(" + value6.Text + "); }";
+                    string code = "else { string " + value6.Text + " Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code6.txt", code);
                 }
             }
@@ -891,6 +916,7 @@ namespace VisualCode
                 Save7.Enabled = true;
                 value7.Visible = false;
                 ifBox7.Visible = false;
+                elseCommand7.Visible = false;
             }
             else if (commandSeven.SelectedIndex == 2)
             {
@@ -901,6 +927,7 @@ namespace VisualCode
                 Save7.Enabled = true;
                 value7.Visible = false;
                 ifBox7.Visible = false;
+                elseCommand7.Visible = false;
             }
             else if (commandSeven.SelectedIndex == 3)
             {
@@ -911,6 +938,7 @@ namespace VisualCode
                 value7.Text = "value";
                 Save7.Enabled = true;
                 ifBox7.Visible = false;
+                elseCommand7.Visible = false;
             }
             else if (commandSeven.SelectedIndex == 4)
             {
@@ -919,6 +947,7 @@ namespace VisualCode
                 Save7.Enabled = true;
                 ifBox7.Visible = true;
                 thenDoWhat7.Text = "\"\"";
+                elseCommand7.Visible = false;
             }
             else if (commandSeven.SelectedIndex == 5)
             {
@@ -935,6 +964,7 @@ namespace VisualCode
                 print7.Text = "";
                 value7.Visible = false;
                 ifBox7.Visible = false;
+                elseCommand7.Visible = false;
             }
         }
 
@@ -996,7 +1026,7 @@ namespace VisualCode
                 }
                 else if (elseCommand7.SelectedIndex == 1)
                 {
-                    string code = "else { Console.ReadLine(" + value7.Text + "); }";
+                    string code = "else { string " + value7.Text + " Console.ReadLine(); }";
                     System.IO.File.WriteAllText(@"C:\visualCodeCSharp\code7.txt", code);
                 }
             }
